@@ -161,8 +161,8 @@ def removeDuplicates(array):
 
 #########
 #########
-M = C3_1	# Computations based on choice for M
-mod_num = 3 # Determined the group coefficents are in. 0 implies Z
+M = C4_1	# Computations based on choice for M
+mod_num = 2 # Determined the group coefficents are in. 0 implies Z
 
 ###
 relations = array(listRelations(M))

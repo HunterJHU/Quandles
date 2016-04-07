@@ -1,0 +1,5 @@
+x,x,x
+x,x,z
+x,z,z
+
+left is n^3 - (2n^2 - n)
