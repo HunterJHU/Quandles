@@ -1,4 +1,4 @@
-# Quandles
+# Classification of Quandles and Cohomology Groups
 
 
 This repository contains code written in Python for the paper in pre-print ***Classification of Quandles and Cohomology Groups*** by Mohamed Elhamdadi and Brian Hunter Jackson which is a continuation of the work by L. Vendramin which can be found [here](https://github.com/HunterUSF/Quandles/blob/master/papers/RIG.pdf). We extend his work of classifying all non-isomorphic indecomposable quandles of size < 36, by classifying all non-isomorphic indecomposable quandles up to order 431. We also calculate the cohomology groups of these quandles and create dense finite fields by identifying 2 co-cycles without corresponding coboundaries.  
