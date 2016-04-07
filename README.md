@@ -7,10 +7,13 @@ Background
 ==========
 
 ![quandles](https://github.com/HunterUSF/Quandles/blob/master/images/basics.png)
+===================================================================================
 
 ![quandles](https://github.com/HunterUSF/Quandles/blob/master/images/RIG.png)
+===================================================================================
 
 ![quandles](https://github.com/HunterUSF/Quandles/blob/master/images/alexander.png)
+===================================================================================
 
 ![quandles](https://github.com/HunterUSF/Quandles/blob/master/images/example.png)
 
@@ -22,98 +25,8 @@ All code contained within the repository is open-sourced and subject to the GNU 
 Results
 =======
 
-Below are the results for cohomology calculation of Quandle C30_1
-
-The relations obtained by plugging in triples:
-[[ 0 -1  0 ...,  0  0  0]
- [ 0 -1  1 ...,  0  0  0]
- [ 0 -1  0 ...,  0  0  0]
- ..., 
- [ 0  0  0 ...,  0 -1  0]
- [ 0  0  0 ...,  1 -1  0]
- [ 0  0  0 ...,  0 -1  0]]
-
-[[0 1 0 ..., 1 0 0]
- [0 0 1 ..., 1 0 0]
- [0 0 0 ..., 1 0 0]
- ..., 
- [0 0 0 ..., 0 1 0]
- [0 0 0 ..., 0 0 0]
- [0 0 0 ..., 1 0 0]]
-
-[[0 0 0 ..., 0 0 0]
- [0 1 0 ..., 0 0 0]
- [0 0 1 ..., 0 0 0]
- ..., 
- [0 0 0 ..., 1 0 0]
- [0 0 0 ..., 0 1 0]
- [0 0 0 ..., 0 0 0]]
-
-[[0 0 0 ..., 0 0 0]
- [0 0 0 ..., 1 0 0]
- [0 0 0 ..., 1 0 0]
- ..., 
- [0 0 0 ..., 1 0 0]
- [0 0 0 ..., 0 1 0]
- [0 0 0 ..., 0 0 0]]
-
-Transpose
-[[0 0 0 ..., 0 0 0]
- [0 0 0 ..., 0 0 0]
- [0 0 0 ..., 0 0 0]
- ..., 
- [0 1 1 ..., 1 0 0]
- [0 0 0 ..., 0 1 0]
- [0 0 0 ..., 0 0 0]]
-
-remove trivial
-[[0 0 0 ..., 0 0 0]
- [0 0 1 ..., 0 0 0]
- [0 0 0 ..., 0 0 0]
- ..., 
- [0 0 0 ..., 0 0 0]
- [0 1 1 ..., 1 0 0]
- [0 0 0 ..., 0 1 0]]
-
-row reduce
-[[0 1 0 ..., 0 0 0]
- [0 0 1 ..., 0 1 0]
- [0 0 0 ..., 0 0 0]
- ..., 
- [0 0 0 ..., 0 0 0]
- [0 0 0 ..., 0 0 0]
- [0 0 0 ..., 0 0 0]]
-
-Coboundary matrix:
-[[ 0  1  1 ..., -1  0  0]
- [ 0  0 -1 ...,  0  0  0]
- [ 0  0  0 ...,  0  0  0]
- ..., 
- [ 0  0  0 ...,  0  0  0]
- [ 0  0  0 ...,  0  0  0]
- [ 0  0  0 ...,  1  1  0]]
-
-Coboundaries reduced over a group:
-[[0 1 0 ..., 0 0 0]
- [0 0 1 ..., 0 1 0]
- [0 0 0 ..., 0 0 0]
- ..., 
- [0 0 0 ..., 0 0 0]
- [0 0 0 ..., 0 0 0]
- [0 0 0 ..., 0 0 0]]
-
-[[0 0 0 ..., 0 0 0]
- [0 0 0 ..., 0 0 0]
- [0 0 0 ..., 0 0 0]
- ..., 
- [0 0 0 ..., 0 0 0]
- [0 0 0 ..., 0 0 0]
- [0 0 0 ..., 0 0 0]]
-
-We have
-1 x 900 dense matrix over Finite Field of size 2 (type 'print function.str()' to see all of the entries)
-
-[Finished in 490.1s]
+![results](https://github.com/HunterUSF/Quandles/blob/master/images/results1.png)
+![results](https://github.com/HunterUSF/Quandles/blob/master/images/results2.png)
 
 
 
